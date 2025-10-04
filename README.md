@@ -1,13 +1,13 @@
-# Personal Website 
-Website ini saya buat untuk menampilkan karya dan perjalanan saya sebagai seorang yang tertarik pada Data Analysis dan UI/UX Design
+# Personal Portofolio 
+tara mahardika readme ini untuk memnuhi tugas web design
 
 ## Links 
 - [Figma](https://www.figma.com/design/9SOgCbvZaFQbVFTlNyXzex/personal-website-cinta?node-id=0-1&t=S0pm1mMqpfxunAM0-1)
 
 ## Social Media
-- [GitHub](https://github.com/cintalifia)
-- [LinkedIn](https://www.linkedin.com/in/cntalifia)
-- [Instagram](https://www.instagram.com/cntalifia/)
+- [GitHub](https://github.com/ursfavgun-prog)
+- [LinkedIn](https://www.linkedin.com/in/ursfavgun-tara-mahardika-b9597a382/)
+- [Instagram](https://www.instagram.com/ursfavgun/)
 
 ## Pages
 - Home
@@ -22,5 +22,5 @@ Website ini saya buat untuk menampilkan karya dan perjalanan saya sebagai seoran
 - JavaScript
 
 ## Preview
-- ![Website Preview](/assets/ca.png)
+- ![Website Preview]()
 
