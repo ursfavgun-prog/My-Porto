@@ -1,8 +1,8 @@
-# Personal Portofolio 
+ # Personal Portofolio 
 tara mahardika readme ini untuk memnuhi tugas web design
 
 ## Links 
-- [Figma](https://www.figma.com/design/9SOgCbvZaFQbVFTlNyXzex/personal-website-cinta?node-id=0-1&t=S0pm1mMqpfxunAM0-1)
+- [Figma](https://www.figma.com/design/c5I2f2L3vDTrI1NYM8qnOG/Portfolio--Community-?node-id=0-1&t=OeuOJpNpSFLPeeyH-1)
 
 ## Social Media
 - [GitHub](https://github.com/ursfavgun-prog)
