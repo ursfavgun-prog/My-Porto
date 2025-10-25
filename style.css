@@ -1,0 +1,152 @@
+/* Reset & Base Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #fdf6d3; /* Kuning muda */
+  color: #1e2952; /* Biru tua */
+  line-height: 1.6;
+  padding: 2rem;
+}
+
+/* Header & Navigation */
+header {
+  text-align: center;
+  padding: 1rem 0;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: #1e2952;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: #4a557b;
+}
+
+/* Hero Section */
+.hero {
+  padding: 3rem 0;
+  text-align: left;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.hero h1 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+  font-weight: 400;
+}
+
+.hero h2 {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+  position: relative;
+}
+
+.hero h2::after {
+  content: "✨";
+  position: absolute;
+  top: -10px;
+  right: -40px;
+  font-size: 1.5rem;
+}
+
+.btn {
+  display: inline-block;
+  background-color: #f5e6a1;
+  color: #1e2952;
+  padding: 0.75rem 1.5rem;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: background-color 0.3s;
+}
+
+.btn:hover {
+  background-color: #e8d98c;
+}
+
+/* General Section Styling */
+.section {
+  padding: 3rem 0;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.section h2 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  text-transform: lowercase;
+}
+
+.section p {
+  margin-bottom: 1rem;
+  font-size: 1rem;
+}
+
+/* Project Item */
+.project-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1rem;
+  font-size: 1rem;
+}
+
+/* Links */
+a {
+  color: #1e2952;
+  text-decoration: underline;
+  transition: color 0.3s;
+}
+
+a:hover {
+  color: #4a557b;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 1.5rem 0;
+  font-size: 0.9rem;
+  color: #6b7280;
+  border-top: 1px solid #e5e7eb;
+  margin-top: 3rem;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  body {
+    padding: 1rem;
+  }
+
+  .hero h2 {
+    font-size: 2.2rem;
+  }
+
+  .section h2 {
+    font-size: 2rem;
+  }
+
+  .project-item {
+    flex-direction: column;
+    gap: 0.5rem;
+    text-align: center;
+  }
+}
